@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
 
+
         // Pre-fill with defaults or saved values
         editTextLatitude.setText(String.valueOf(currentLatitude));
         editTextLongitude.setText(String.valueOf(currentLongitude));
@@ -118,6 +119,32 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     // --- Map Methods ---
+
+
+
+    private boolean checkLocationServicesEnabled() {
+        android.location.LocationManager lm = (android.location.LocationManager) getSystemService(this.LOCATION_SERVICE);
+        boolean gpsEnabled = false;
+        boolean networkEnabled = false;
+
+        try {
+            gpsEnabled = lm.isProviderEnabled(android.location.LocationManager.GPS_PROVIDER);
+        } catch(Exception ex) {
+            Log.e(TAG, "Error checking GPS provider", ex);
+        }
+
+        try {
+            networkEnabled = lm.isProviderEnabled(android.location.LocationManager.NETWORK_PROVIDER);
+        } catch(Exception ex) {
+            Log.e(TAG, "Error checking network provider", ex);
+        }
+
+        if(!gpsEnabled && !networkEnabled) {
+            Toast.makeText(this, "Please enable location services", Toast.LENGTH_LONG).show();
+            return false;
+        }
+        return true;
+    }
 
     @Override
     public void onMapReady(@NonNull GoogleMap map) {
@@ -232,6 +259,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Permission checks are now done before calling this method (in the button listener)
         // Parameter parsing is also done before calling
 
+        if (!checkLocationServicesEnabled()) {
+            Log.e(TAG, "Location services not enabled");
+            return;
+        }
+
         Log.d(TAG, "startGeofencing called");
         // *** ADD THIS LOGGING HERE ***
         Log.d(TAG, "--- startGeofencing ---");
@@ -278,6 +310,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                     removeGeofenceCircle(); // Remove circle if adding failed
                 });
     }
+
+
+
 
     private void stopGeofencing() {
         Log.d(TAG, "stopGeofencing called");
@@ -345,14 +380,24 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     // --- Utility Methods (Keep existing) ---
     private PendingIntent getGeofencePendingIntent() {
+        // Reuse the PendingIntent if we already have it
         if (geofencePendingIntent != null) {
             return geofencePendingIntent;
         }
+
+        Log.d(TAG, "Creating new geofence PendingIntent");
         Intent intent = new Intent(this, GeofenceBroadcastReceiver.class);
-        int flags = PendingIntent.FLAG_UPDATE_CURRENT;
+        // Add a unique action to distinguish this intent
+        intent.setAction("com.example.geofencealertapp.ACTION_GEOFENCE_EVENT");
+
+        // The flags are critical - must use FLAG_MUTABLE on Android 12+
+        int flags;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            flags |= PendingIntent.FLAG_IMMUTABLE;
+            flags = PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_MUTABLE;
+        } else {
+            flags = PendingIntent.FLAG_UPDATE_CURRENT;
         }
+
         geofencePendingIntent = PendingIntent.getBroadcast(this, 0, intent, flags);
         return geofencePendingIntent;
     }
