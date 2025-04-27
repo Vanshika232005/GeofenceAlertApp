@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:2:1-54:12
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\nares\.gradle\caches\8.9\transforms\f180f5ee1742b039f4cdf0ec0bccf8be\transformed\play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:16:1-35:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\nares\.gradle\caches\8.9\transforms\7c82ef740d8dbbbf1a156a253ecc1a1c\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
@@ -51,6 +51,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\nares\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nares\.gradle\caches\8.9\transforms\5ecd62ca90505f3d02933e4851ef97ad\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\nares\.gradle\caches\8.9\transforms\5f0ad426351d6cbc5180c76793b049ce\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 	package
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:4:5-43
 		INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml
@@ -61,24 +62,40 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\nares\.gradle\caches\8.9\trans
 	xmlns:android
 		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:4:5-79
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:4:22-76
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:5:5-81
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:6:5-85
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:11:5-85
 	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:6:22-82
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:11:22-82
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:14:22-74
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:8:5-77
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:17:5-77
 	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:8:22-74
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:17:22-74
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:19:22-76
 application
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:10:5-43:19
-INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:10:5-43:19
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:21:5-52:19
+INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:21:5-52:19
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\nares\.gradle\caches\8.9\transforms\f180f5ee1742b039f4cdf0ec0bccf8be\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\nares\.gradle\caches\8.9\transforms\f180f5ee1742b039f4cdf0ec0bccf8be\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
 MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:31:5-34:19
@@ -110,79 +127,53 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\na
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\nares\.gradle\caches\8.9\transforms\8a7aac47ac265b7672ed57fbd0d3fbfb\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:28:9-35
 	android:label
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:26:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:24:9-54
 	android:roundIcon
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:27:9-54
 	tools:targetApi
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:20:9-29
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:30:9-29
 	android:icon
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:25:9-43
 	android:allowBackup
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:18:9-54
-	android:enableOnBackInvokedCallback
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:19:9-51
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:29:9-54
 	android:dataExtractionRules
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:12:9-65
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:23:9-65
 activity#com.example.geofencealertapp.MainActivity
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:21:9-29:20
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:32:9-39:20
 	android:exported
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:33:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:35:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:37:27-74
 receiver#com.example.geofencealertapp.GeofenceBroadcastReceiver
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:30:9-33:39
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:42:9-46:20
 	android:enabled
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:32:13-35
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:44:13-35
 	android:exported
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:31:13-54
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:43:13-54
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:34:9-36:71
+ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:48:9-50:71
 	android:value
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:36:13-68
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:50:13-68
 	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:35:13-58
-uses-library#org.apache.http.legacy
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:39:9-87
-MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:7-86
-MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:7-86
-	android:required
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:39:61-85
-	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:39:23-60
-meta-data#com.google.android.gms.version
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:40:9-42:69
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\nares\.gradle\caches\8.9\transforms\d2cfdd8274556f905c7bad88edcac216\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\nares\.gradle\caches\8.9\transforms\d2cfdd8274556f905c7bad88edcac216\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-	android:value
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:42:13-66
-	android:name
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:41:13-58
-uses-feature#0x00020000
-ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:44:5-46:34
-MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:22:5-24:33
-MERGED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:22:5-24:33
-	android:glEsVersion
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:45:9-41
-	android:required
-		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:46:9-32
+		ADDED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml:49:13-58
 uses-sdk
 INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml
@@ -283,20 +274,24 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\nares\.gradle\caches\8.9\trans
 		INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\nares\Desktop\JAVA\MAD SEM4\GeofenceAlertApp-master\GeofenceAlertApp-master\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:20:5-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:20:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:21:5-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:21:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:24:8-31
 queries
 ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:27:5-30:15
 package#com.google.android.apps.maps
 ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:29:7-61
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:29:16-59
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:7-86
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:59-83
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.1.0] C:\Users\nares\.gradle\caches\8.9\transforms\05293709ad44f5af1f74b1b6ed4b4407\transformed\play-services-maps-19.1.0\AndroidManifest.xml:33:21-58
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\nares\.gradle\caches\8.9\transforms\75a6d9530e36f66fbbbd3a5e1614c685\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
 	android:exported
@@ -305,6 +300,12 @@ ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\nares\.gr
 		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\nares\.gradle\caches\8.9\transforms\75a6d9530e36f66fbbbd3a5e1614c685\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\nares\.gradle\caches\8.9\transforms\75a6d9530e36f66fbbbd3a5e1614c685\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\nares\.gradle\caches\8.9\transforms\d2cfdd8274556f905c7bad88edcac216\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\nares\.gradle\caches\8.9\transforms\d2cfdd8274556f905c7bad88edcac216\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\nares\.gradle\caches\8.9\transforms\d2cfdd8274556f905c7bad88edcac216\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\nares\.gradle\caches\8.9\transforms\00c051095473a9fa348ffaccc7c8da03\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nares\.gradle\caches\8.9\transforms\e25c967d2aae91630315ab5f4ed35128\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
